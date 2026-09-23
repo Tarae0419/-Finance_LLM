@@ -1,0 +1,9 @@
+{
+  "tokenizer": "nfkc-word-hangul-bigram-v1",
+  "k1": 1.2,
+  "b": 0.75,
+  "rrf_k": 60,
+  "top_k": 5,
+  "wiki_top_k": 3,
+  "max_context_chars": 12000
+}
