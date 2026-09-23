@@ -16,6 +16,8 @@ build/
 !.env.example
 data/raw/
 data/processed/
+data/review/submissions/
+data/sealed/
 models/
 artifacts/
 *.log
