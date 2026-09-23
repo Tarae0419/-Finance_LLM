@@ -184,22 +184,27 @@ def register_draft(connection, example: Example) -> int:
         return revision
 
 
+def validate_review(connection, review: HumanReview) -> None:
+    """Check the current revision and evidence without writing review history."""
+    row = connection.execute(
+        "SELECT revision,content_hash,payload FROM current_example WHERE example_id=%s",
+        (review.example_id,),
+    ).fetchone()
+    if not row or row[:2] != (review.revision, review.content_hash):
+        raise ValueError("Stale review: exact current revision and hash required")
+    example = Example.model_validate(row[2])
+    expected = {item.provision_id for item in example.evidence}
+    if set(review.provision_ids) != expected or len(review.provision_ids) != len(expected):
+        raise ValueError("Review must cover every evidence ID exactly once")
+    if review.existence.result == "pass":
+        validate_evidence(connection, example)
+
+
 def record_review(connection, review: HumanReview) -> str:
     """Import a human's checklist. The attestation is not identity authentication."""
     with connection.transaction():
         connection.execute("SELECT pg_advisory_xact_lock(72401003)")
-        row = connection.execute(
-            "SELECT revision,content_hash,payload FROM current_example WHERE example_id=%s",
-            (review.example_id,),
-        ).fetchone()
-        if not row or row[:2] != (review.revision, review.content_hash):
-            raise ValueError("Stale review: exact current revision and hash required")
-        example = Example.model_validate(row[2])
-        expected = {item.provision_id for item in example.evidence}
-        if set(review.provision_ids) != expected or len(review.provision_ids) != len(expected):
-            raise ValueError("Review must cover every evidence ID exactly once")
-        if review.existence.result == "pass":
-            validate_evidence(connection, example)
+        validate_review(connection, review)
         checks = [getattr(review, name).result for name in CHECKS]
         reasons = {name: getattr(review, name).reason for name in CHECKS}
         return connection.execute(

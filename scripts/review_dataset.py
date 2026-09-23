@@ -14,6 +14,7 @@ from finreg.dataset import (
     reviewed_examples,
 )
 from finreg.migrate import connect_database, migrate
+from finreg.review_preflight import preflight_reviews
 
 
 def main():
@@ -24,6 +25,8 @@ def main():
     review = commands.add_parser("import-reviews")
     review.add_argument("path", type=Path)
     review.add_argument("--attest-human-review", action="store_true", required=True)
+    check = commands.add_parser("check-reviews")
+    check.add_argument("path", type=Path)
     export = commands.add_parser("export-reviewed")
     export.add_argument("--dataset", required=True)
     export.add_argument("--split", choices=["dev", "train"], required=True)
@@ -34,6 +37,17 @@ def main():
     commands.add_parser("status")
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
+    if args.command == "check-reviews":
+        try:
+            entries = json.loads(args.path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            print(json.dumps({"valid": False, "errors": ["unreadable_json"]}))
+            return 2
+        with connect_database(Settings()) as connection, connection.transaction():
+            connection.execute("SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY")
+            report = preflight_reviews(connection, entries)
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return 0 if report["valid"] else 2
     with connect_database(Settings()) as connection:
         migrate(connection, root / "migrations")
         with connection.transaction():
@@ -86,4 +100,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
