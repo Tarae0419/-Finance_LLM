@@ -1,0 +1,1686 @@
+[
+  {
+    "example_id": "s1-dev-01",
+    "revision": 1,
+    "content_hash": "bdf47cc5e6b87fe5fbf56cc8b53dfc6ed3a7a61f0abb861baeeac244c12179c6",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-02",
+    "revision": 1,
+    "content_hash": "3d307aab705b011129a5ea4d2ef96044e81810b1725ab3749b54c2a68956deec",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-03",
+    "revision": 1,
+    "content_hash": "ae2b439d9d848f5637b1bfe153431208578fb764918435c72350f3eccbb89df5",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-04",
+    "revision": 1,
+    "content_hash": "e17ee331fae20dff9e6d23d2dbff33e5cb508f240bf456d8a7c7fba705019950",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-05",
+    "revision": 1,
+    "content_hash": "d24d193dae7433f990b8940be3264c1df21164d2b679c78078ac4dd586bba9c5",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-06",
+    "revision": 1,
+    "content_hash": "eafb745716db005a595ddb42b518460e20db4e203656689cf02465a640c7171f",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-07",
+    "revision": 1,
+    "content_hash": "d12cea8f0af0076bb7efc2b725423cbbe6a2adb6196b254430197466e9c19b79",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "7698fb07-45c8-5ac7-ab4b-8d24be06bfa2",
+      "c4ce838a-74a2-5586-95b0-ac2e1cb61371"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-08",
+    "revision": 1,
+    "content_hash": "4c755404e79532bdab1e74ebcdd67966f7269733d84afb098f14a78c1a9c5a7e",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "7698fb07-45c8-5ac7-ab4b-8d24be06bfa2"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-09",
+    "revision": 1,
+    "content_hash": "da5c1cd89ed751f729a926d8ca3483cb463b24ccb5c8e4cb38e6752f86f2c662",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "7698fb07-45c8-5ac7-ab4b-8d24be06bfa2",
+      "c4ce838a-74a2-5586-95b0-ac2e1cb61371"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-10",
+    "revision": 1,
+    "content_hash": "3a58e09bfc6469ab3ce1e34395299ca9798599f0bc2ca4c073d76c6734d43cff",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "7698fb07-45c8-5ac7-ab4b-8d24be06bfa2",
+      "c4ce838a-74a2-5586-95b0-ac2e1cb61371"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-11",
+    "revision": 1,
+    "content_hash": "d120f092352fccce9c43ed5dbb21ea460c15b5b728daee22c7be45127b45f227",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-12",
+    "revision": 1,
+    "content_hash": "32ececbd024281192d7abe1841043a2a04ec0ba263074fc5e6a5e9b87ffda3fc",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-13",
+    "revision": 1,
+    "content_hash": "1fd2966eb6d3b9d9c0ead3cbe55bd3c43a1f427afe3ccf2c27f07b7785997580",
+    "provision_ids": [
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f",
+      "cd61d8bf-442b-5347-9818-6ab306361ca8"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-14",
+    "revision": 1,
+    "content_hash": "520af323392e38491d2a635b34caab2aed2e20e9a1e2c73606f3fad6c8de6061",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-15",
+    "revision": 1,
+    "content_hash": "7d567ff5e8711ee3bcc77a2add81720666467144553be23a0f1d1b921f893d8d",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-16",
+    "revision": 1,
+    "content_hash": "2823ddeeea5aac18d92ac79fbd70c5ea2db25288308f6b4b5c2a05b1e3a238ec",
+    "provision_ids": [
+      "c2bd04ed-db77-548c-961e-1e28afd68d6b",
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-17",
+    "revision": 1,
+    "content_hash": "48590fb08a8bba469c996c043027971a1bcae46a8dd90bd89c63507bea9e3c35",
+    "provision_ids": [
+      "c2bd04ed-db77-548c-961e-1e28afd68d6b",
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-18",
+    "revision": 1,
+    "content_hash": "0ddc5717042e16b824d083665e8ee1a877a96e7c6aec6a4fcd078551e804c1e6",
+    "provision_ids": [],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-19",
+    "revision": 1,
+    "content_hash": "546d49f86ba35234d0077f6e18e45c896a32ae84b5fd5d36da773639d1060fe0",
+    "provision_ids": [],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-20",
+    "revision": 1,
+    "content_hash": "196c220b274812e9efd31bcd9ec7b1b21ea9d4d793d09bac933a3dac7be647a2",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-21",
+    "revision": 1,
+    "content_hash": "77707a16283e65694d6b21e6ccc697e1a0dc90d72aeab1200072392dcd471f66",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "abc8c8e5-1758-56a3-bb3e-ae8a032188f4",
+      "f3bcbbe9-3f00-56ea-a8d5-628c67747731"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-22",
+    "revision": 1,
+    "content_hash": "ab06b665c5d40ca0c54b8c6f17e830b2244b99cfe27095fb0891278d53f74b41",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "abc8c8e5-1758-56a3-bb3e-ae8a032188f4",
+      "f3bcbbe9-3f00-56ea-a8d5-628c67747731"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-23",
+    "revision": 1,
+    "content_hash": "387e20407b4ee572db8847916dfd0d6f10c6c9711962315a6aa83a22b1afb5c4",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "abc8c8e5-1758-56a3-bb3e-ae8a032188f4",
+      "f3bcbbe9-3f00-56ea-a8d5-628c67747731"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-24",
+    "revision": 1,
+    "content_hash": "127d6c7666024125ea61e1a60f9a5bfb9ce6e54acd08012e71578bb56c546281",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "abc8c8e5-1758-56a3-bb3e-ae8a032188f4",
+      "f3bcbbe9-3f00-56ea-a8d5-628c67747731"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-25",
+    "revision": 1,
+    "content_hash": "69944cef13c11ec1cfb397284e0b747614b8dcba30b319dd341b83b105a18b5e",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "abc8c8e5-1758-56a3-bb3e-ae8a032188f4",
+      "f3bcbbe9-3f00-56ea-a8d5-628c67747731"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-26",
+    "revision": 1,
+    "content_hash": "4bf82b77d5baa9e416893036c99bb8d75221db9b21faf3ee2693023544d8375c",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "abc8c8e5-1758-56a3-bb3e-ae8a032188f4",
+      "f3bcbbe9-3f00-56ea-a8d5-628c67747731"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-27",
+    "revision": 1,
+    "content_hash": "68d81b0188c83643358d17c58ab19ed727b07def206b7e0433079bc38964d42e",
+    "provision_ids": [
+      "c2bd04ed-db77-548c-961e-1e28afd68d6b",
+      "4b31b566-6f68-5e31-bae7-f68e25ef9a6b"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-28",
+    "revision": 1,
+    "content_hash": "2a0e081182770c606afb0c5703a0dd63ccbe846fd504141114d14052a4804631",
+    "provision_ids": [
+      "c2bd04ed-db77-548c-961e-1e28afd68d6b",
+      "4b31b566-6f68-5e31-bae7-f68e25ef9a6b"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-29",
+    "revision": 1,
+    "content_hash": "4043d82bb20bcbab238d71761b200c09cca75904c5dc258d0214b62b4ddeed18",
+    "provision_ids": [
+      "c2bd04ed-db77-548c-961e-1e28afd68d6b",
+      "4b31b566-6f68-5e31-bae7-f68e25ef9a6b"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-30",
+    "revision": 1,
+    "content_hash": "c235981f22e3c9e7fb7b61f764e9da149a5a9c69452c471ef07b2ec8f0c39881",
+    "provision_ids": [
+      "c2bd04ed-db77-548c-961e-1e28afd68d6b",
+      "4b31b566-6f68-5e31-bae7-f68e25ef9a6b"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-31",
+    "revision": 1,
+    "content_hash": "ba0560725802c1b72ba66a6b9618a3a29afdcfcba9ce6c649eb5bd955845cb96",
+    "provision_ids": [
+      "c2bd04ed-db77-548c-961e-1e28afd68d6b",
+      "4b31b566-6f68-5e31-bae7-f68e25ef9a6b"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-32",
+    "revision": 1,
+    "content_hash": "85203c286c16b3903612a34029c33ea07e4bd77a1d497bf9555d4d8d646794d4",
+    "provision_ids": [
+      "c2bd04ed-db77-548c-961e-1e28afd68d6b",
+      "4b31b566-6f68-5e31-bae7-f68e25ef9a6b"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-33",
+    "revision": 1,
+    "content_hash": "15d7426a5e7501cca41d12d033fa00341569f82632235f618c7138e91c10ac66",
+    "provision_ids": [
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-34",
+    "revision": 1,
+    "content_hash": "dfcfdfe259dabae01677e8b290bc5d19af112dfd152cbc841445f6efd358d0c9",
+    "provision_ids": [
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-35",
+    "revision": 1,
+    "content_hash": "55b4ef499a243c49abae4e252d0c58f45e6881b99561a13cd30ce2108d43dfa9",
+    "provision_ids": [
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-36",
+    "revision": 1,
+    "content_hash": "19ed8e380056d366b0f34c8ea21a308ce45a0a11d75088abc52cdb0634d4f831",
+    "provision_ids": [
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-37",
+    "revision": 1,
+    "content_hash": "b0c2b55a83ac22ce5792847022de160ed6ba16aebe5a815e239a7cbf5a547610",
+    "provision_ids": [
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-38",
+    "revision": 1,
+    "content_hash": "a00136d808474edf650e3c0d0f8a9636b39b40372836352cf564eb687bb7769e",
+    "provision_ids": [
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-39",
+    "revision": 1,
+    "content_hash": "b4de99a5c067a2c020646fd4c3c641593360adb4f88c822ed34abff9dfa7076f",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-40",
+    "revision": 1,
+    "content_hash": "daf875f2d22976ba7cc44951f14c9bc26746af5547dc976fd8d47684d6af35d7",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-41",
+    "revision": 1,
+    "content_hash": "5468fd6413186395014981364b4e8e4bb7cc9289be2f0e19d79927b48fa3416c",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-42",
+    "revision": 1,
+    "content_hash": "afe53d6512e4c42acc43eee9b734e745ccf3d6df59b987f9aa0e6c6b4f38d2f4",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-43",
+    "revision": 1,
+    "content_hash": "48e7590209e2f5943f2c3e3becca01d5ada3e70bf29a495287932eb0f4ef861a",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-44",
+    "revision": 1,
+    "content_hash": "ee56e8e0ee2c9285519066f12b0b37777f23237f4eda28cd8e521ff003eccedb",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-45",
+    "revision": 1,
+    "content_hash": "9f7b187660449e4c792c5ce15046d432b1e5f33c5fd8444fb5feb8923c66070a",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-46",
+    "revision": 1,
+    "content_hash": "98939a1661177bd57c699fdabeece7ffe7aa3f9590b6c9b6661bc08a0f5e650f",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-47",
+    "revision": 1,
+    "content_hash": "1f15220a16f2f4997d1e67f7bcc6871011852a2ba62b544f2ce42d2adcec48d7",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-48",
+    "revision": 1,
+    "content_hash": "f586607a58dcd24df3fddf408055f2eca3e188df6ba8d35789d055b78f212919",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-49",
+    "revision": 1,
+    "content_hash": "ae2fc12c7eb3ffbc7b0c51299e62bc919e789762ba7e613c0eaa4065ef8b6b57",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  },
+  {
+    "example_id": "s1-dev-50",
+    "revision": 1,
+    "content_hash": "2e0fefb6ec803d900c99f0ffd0ff08adb4325256d5d4c5e76606ee0ef6d511a9",
+    "provision_ids": [
+      "4bf14776-b03c-55de-99b5-ee513dda08b3",
+      "e9c34b4b-2f19-5834-83a5-29852cef5c9f"
+    ],
+    "reviewer": null,
+    "reviewer_role": null,
+    "reviewer_role_detail": null,
+    "review_date": null,
+    "method": null,
+    "human_attested": false,
+    "existence": {
+      "result": "pending",
+      "reason": ""
+    },
+    "meaning": {
+      "result": "pending",
+      "reason": ""
+    },
+    "temporal": {
+      "result": "pending",
+      "reason": ""
+    },
+    "completeness": {
+      "result": "pending",
+      "reason": ""
+    },
+    "official_cross_checks": [],
+    "excluded_reason": null,
+    "duration_seconds": null
+  }
+]

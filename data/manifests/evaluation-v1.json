@@ -1,0 +1,2490 @@
+{
+  "schema_version": 1,
+  "members": [
+    {
+      "example_id": "s1-dev-01",
+      "revision": 1,
+      "content_hash": "bdf47cc5e6b87fe5fbf56cc8b53dfc6ed3a7a61f0abb861baeeac244c12179c6",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "initial-s1-dev-01",
+      "template_key": "initial-s1-dev-01",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-02",
+      "revision": 1,
+      "content_hash": "3d307aab705b011129a5ea4d2ef96044e81810b1725ab3749b54c2a68956deec",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "initial-s1-dev-02",
+      "template_key": "initial-s1-dev-02",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-03",
+      "revision": 1,
+      "content_hash": "ae2b439d9d848f5637b1bfe153431208578fb764918435c72350f3eccbb89df5",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "initial-s1-dev-03",
+      "template_key": "initial-s1-dev-03",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-04",
+      "revision": 1,
+      "content_hash": "e17ee331fae20dff9e6d23d2dbff33e5cb508f240bf456d8a7c7fba705019950",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "initial-s1-dev-04",
+      "template_key": "initial-s1-dev-04",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-05",
+      "revision": 1,
+      "content_hash": "d24d193dae7433f990b8940be3264c1df21164d2b679c78078ac4dd586bba9c5",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "initial-s1-dev-05",
+      "template_key": "initial-s1-dev-05",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-06",
+      "revision": 1,
+      "content_hash": "eafb745716db005a595ddb42b518460e20db4e203656689cf02465a640c7171f",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "initial-s1-dev-06",
+      "template_key": "initial-s1-dev-06",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-07",
+      "revision": 1,
+      "content_hash": "d12cea8f0af0076bb7efc2b725423cbbe6a2adb6196b254430197466e9c19b79",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "initial-s1-dev-07",
+      "template_key": "initial-s1-dev-07",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-08",
+      "revision": 1,
+      "content_hash": "4c755404e79532bdab1e74ebcdd67966f7269733d84afb098f14a78c1a9c5a7e",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "initial-s1-dev-08",
+      "template_key": "initial-s1-dev-08",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-09",
+      "revision": 1,
+      "content_hash": "da5c1cd89ed751f729a926d8ca3483cb463b24ccb5c8e4cb38e6752f86f2c662",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "initial-s1-dev-09",
+      "template_key": "initial-s1-dev-09",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-10",
+      "revision": 1,
+      "content_hash": "3a58e09bfc6469ab3ce1e34395299ca9798599f0bc2ca4c073d76c6734d43cff",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "initial-s1-dev-10",
+      "template_key": "initial-s1-dev-10",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-11",
+      "revision": 1,
+      "content_hash": "d120f092352fccce9c43ed5dbb21ea460c15b5b728daee22c7be45127b45f227",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "initial-s1-dev-11",
+      "template_key": "initial-s1-dev-11",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-12",
+      "revision": 1,
+      "content_hash": "32ececbd024281192d7abe1841043a2a04ec0ba263074fc5e6a5e9b87ffda3fc",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "initial-s1-dev-12",
+      "template_key": "initial-s1-dev-12",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-13",
+      "revision": 1,
+      "content_hash": "1fd2966eb6d3b9d9c0ead3cbe55bd3c43a1f427afe3ccf2c27f07b7785997580",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "initial-s1-dev-13",
+      "template_key": "initial-s1-dev-13",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-14",
+      "revision": 1,
+      "content_hash": "520af323392e38491d2a635b34caab2aed2e20e9a1e2c73606f3fad6c8de6061",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "initial-s1-dev-14",
+      "template_key": "initial-s1-dev-14",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-15",
+      "revision": 1,
+      "content_hash": "7d567ff5e8711ee3bcc77a2add81720666467144553be23a0f1d1b921f893d8d",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "initial-s1-dev-15",
+      "template_key": "initial-s1-dev-15",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-16",
+      "revision": 1,
+      "content_hash": "2823ddeeea5aac18d92ac79fbd70c5ea2db25288308f6b4b5c2a05b1e3a238ec",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "initial-s1-dev-16",
+      "template_key": "initial-s1-dev-16",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-17",
+      "revision": 1,
+      "content_hash": "48590fb08a8bba469c996c043027971a1bcae46a8dd90bd89c63507bea9e3c35",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "initial-s1-dev-17",
+      "template_key": "initial-s1-dev-17",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-18",
+      "revision": 1,
+      "content_hash": "0ddc5717042e16b824d083665e8ee1a877a96e7c6aec6a4fcd078551e804c1e6",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "initial-s1-dev-18",
+      "template_key": "initial-s1-dev-18",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-dev-19",
+      "revision": 1,
+      "content_hash": "546d49f86ba35234d0077f6e18e45c896a32ae84b5fd5d36da773639d1060fe0",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "initial-s1-dev-19",
+      "template_key": "initial-s1-dev-19",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-dev-20",
+      "revision": 1,
+      "content_hash": "196c220b274812e9efd31bcd9ec7b1b21ea9d4d793d09bac933a3dac7be647a2",
+      "group_id": "loan-explanation-core-dev",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "initial-s1-dev-20",
+      "template_key": "initial-s1-dev-20",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-21",
+      "revision": 1,
+      "content_hash": "77707a16283e65694d6b21e6ccc697e1a0dc90d72aeab1200072392dcd471f66",
+      "group_id": "dev-withdrawal-disclosure",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "withdrawal-disclosure",
+      "template_key": "withdrawal-disclosure",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-22",
+      "revision": 1,
+      "content_hash": "ab06b665c5d40ca0c54b8c6f17e830b2244b99cfe27095fb0891278d53f74b41",
+      "group_id": "dev-withdrawal-disclosure",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "withdrawal-disclosure",
+      "template_key": "withdrawal-disclosure",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-23",
+      "revision": 1,
+      "content_hash": "387e20407b4ee572db8847916dfd0d6f10c6c9711962315a6aa83a22b1afb5c4",
+      "group_id": "dev-withdrawal-disclosure",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "withdrawal-disclosure",
+      "template_key": "withdrawal-disclosure",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-24",
+      "revision": 1,
+      "content_hash": "127d6c7666024125ea61e1a60f9a5bfb9ce6e54acd08012e71578bb56c546281",
+      "group_id": "dev-withdrawal-disclosure",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "withdrawal-disclosure",
+      "template_key": "withdrawal-disclosure",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-25",
+      "revision": 1,
+      "content_hash": "69944cef13c11ec1cfb397284e0b747614b8dcba30b319dd341b83b105a18b5e",
+      "group_id": "dev-withdrawal-disclosure",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "withdrawal-disclosure",
+      "template_key": "withdrawal-disclosure",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-26",
+      "revision": 1,
+      "content_hash": "4bf82b77d5baa9e416893036c99bb8d75221db9b21faf3ee2693023544d8375c",
+      "group_id": "dev-withdrawal-disclosure",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "withdrawal-disclosure",
+      "template_key": "withdrawal-disclosure",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-27",
+      "revision": 1,
+      "content_hash": "68d81b0188c83643358d17c58ab19ed727b07def206b7e0433079bc38964d42e",
+      "group_id": "dev-consumer-definition",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "consumer-definition",
+      "template_key": "consumer-definition",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-28",
+      "revision": 1,
+      "content_hash": "2a0e081182770c606afb0c5703a0dd63ccbe846fd504141114d14052a4804631",
+      "group_id": "dev-consumer-definition",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "consumer-definition",
+      "template_key": "consumer-definition",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-29",
+      "revision": 1,
+      "content_hash": "4043d82bb20bcbab238d71761b200c09cca75904c5dc258d0214b62b4ddeed18",
+      "group_id": "dev-consumer-definition",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "consumer-definition",
+      "template_key": "consumer-definition",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-30",
+      "revision": 1,
+      "content_hash": "c235981f22e3c9e7fb7b61f764e9da149a5a9c69452c471ef07b2ec8f0c39881",
+      "group_id": "dev-consumer-definition",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "consumer-definition",
+      "template_key": "consumer-definition",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-31",
+      "revision": 1,
+      "content_hash": "ba0560725802c1b72ba66a6b9618a3a29afdcfcba9ce6c649eb5bd955845cb96",
+      "group_id": "dev-consumer-definition",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "consumer-definition",
+      "template_key": "consumer-definition",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-32",
+      "revision": 1,
+      "content_hash": "85203c286c16b3903612a34029c33ea07e4bd77a1d497bf9555d4d8d646794d4",
+      "group_id": "dev-consumer-definition",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "consumer-definition",
+      "template_key": "consumer-definition",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-33",
+      "revision": 1,
+      "content_hash": "15d7426a5e7501cca41d12d033fa00341569f82632235f618c7138e91c10ac66",
+      "group_id": "dev-delivery-route",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "delivery-route",
+      "template_key": "delivery-route",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-34",
+      "revision": 1,
+      "content_hash": "dfcfdfe259dabae01677e8b290bc5d19af112dfd152cbc841445f6efd358d0c9",
+      "group_id": "dev-delivery-route",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "delivery-route",
+      "template_key": "delivery-route",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-35",
+      "revision": 1,
+      "content_hash": "55b4ef499a243c49abae4e252d0c58f45e6881b99561a13cd30ce2108d43dfa9",
+      "group_id": "dev-delivery-route",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "delivery-route",
+      "template_key": "delivery-route",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-36",
+      "revision": 1,
+      "content_hash": "19ed8e380056d366b0f34c8ea21a308ce45a0a11d75088abc52cdb0634d4f831",
+      "group_id": "dev-delivery-route",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "delivery-route",
+      "template_key": "delivery-route",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-37",
+      "revision": 1,
+      "content_hash": "b0c2b55a83ac22ce5792847022de160ed6ba16aebe5a815e239a7cbf5a547610",
+      "group_id": "dev-delivery-route",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "delivery-route",
+      "template_key": "delivery-route",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-38",
+      "revision": 1,
+      "content_hash": "a00136d808474edf650e3c0d0f8a9636b39b40372836352cf564eb687bb7769e",
+      "group_id": "dev-delivery-route",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "delivery-route",
+      "template_key": "delivery-route",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-39",
+      "revision": 1,
+      "content_hash": "b4de99a5c067a2c020646fd4c3c641593360adb4f88c822ed34abff9dfa7076f",
+      "group_id": "dev-explanation-request",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "explanation-request",
+      "template_key": "explanation-request",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-40",
+      "revision": 1,
+      "content_hash": "daf875f2d22976ba7cc44951f14c9bc26746af5547dc976fd8d47684d6af35d7",
+      "group_id": "dev-explanation-request",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "explanation-request",
+      "template_key": "explanation-request",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-41",
+      "revision": 1,
+      "content_hash": "5468fd6413186395014981364b4e8e4bb7cc9289be2f0e19d79927b48fa3416c",
+      "group_id": "dev-explanation-request",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "explanation-request",
+      "template_key": "explanation-request",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-42",
+      "revision": 1,
+      "content_hash": "afe53d6512e4c42acc43eee9b734e745ccf3d6df59b987f9aa0e6c6b4f38d2f4",
+      "group_id": "dev-explanation-request",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "explanation-request",
+      "template_key": "explanation-request",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-43",
+      "revision": 1,
+      "content_hash": "48e7590209e2f5943f2c3e3becca01d5ada3e70bf29a495287932eb0f4ef861a",
+      "group_id": "dev-explanation-request",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "explanation-request",
+      "template_key": "explanation-request",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-44",
+      "revision": 1,
+      "content_hash": "ee56e8e0ee2c9285519066f12b0b37777f23237f4eda28cd8e521ff003eccedb",
+      "group_id": "dev-explanation-request",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "explanation-request",
+      "template_key": "explanation-request",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-45",
+      "revision": 1,
+      "content_hash": "9f7b187660449e4c792c5ce15046d432b1e5f33c5fd8444fb5feb8923c66070a",
+      "group_id": "dev-historical-document-gap",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "historical-document-gap",
+      "template_key": "historical-document-gap",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-46",
+      "revision": 1,
+      "content_hash": "98939a1661177bd57c699fdabeece7ffe7aa3f9590b6c9b6661bc08a0f5e650f",
+      "group_id": "dev-historical-document-gap",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "historical-document-gap",
+      "template_key": "historical-document-gap",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-47",
+      "revision": 1,
+      "content_hash": "1f15220a16f2f4997d1e67f7bcc6871011852a2ba62b544f2ce42d2adcec48d7",
+      "group_id": "dev-historical-document-gap",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "historical-document-gap",
+      "template_key": "historical-document-gap",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-48",
+      "revision": 1,
+      "content_hash": "f586607a58dcd24df3fddf408055f2eca3e188df6ba8d35789d055b78f212919",
+      "group_id": "dev-historical-document-gap",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "historical-document-gap",
+      "template_key": "historical-document-gap",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-49",
+      "revision": 1,
+      "content_hash": "ae2fc12c7eb3ffbc7b0c51299e62bc919e789762ba7e613c0eaa4065ef8b6b57",
+      "group_id": "dev-historical-document-gap",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "historical-document-gap",
+      "template_key": "historical-document-gap",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-dev-50",
+      "revision": 1,
+      "content_hash": "2e0fefb6ec803d900c99f0ffd0ff08adb4325256d5d4c5e76606ee0ef6d511a9",
+      "group_id": "dev-historical-document-gap",
+      "split": "dev",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "historical-document-gap",
+      "template_key": "historical-document-gap",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-001",
+      "revision": 1,
+      "content_hash": "4d2e56d23fe06bace4d8284433732237c7691a62e999b6c35bcd4943e04e5f40",
+      "group_id": "test-h01",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h01",
+      "template_key": "h01",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-002",
+      "revision": 1,
+      "content_hash": "664a48b954bea33ab17d18e65b76e9bf8b5583c96196bf26773583f40b11c41b",
+      "group_id": "test-h01",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h01",
+      "template_key": "h01",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-003",
+      "revision": 1,
+      "content_hash": "4c06c8be8179aec73160888107ab54105d8516d3726555a3d8e21989fd20979c",
+      "group_id": "test-h01",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h01",
+      "template_key": "h01",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-004",
+      "revision": 1,
+      "content_hash": "a28e4fc7e661461a829c3bdaac9c8bd301af3ecd0a081b0e90bcc6498267679a",
+      "group_id": "test-h01",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h01",
+      "template_key": "h01",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-005",
+      "revision": 1,
+      "content_hash": "1e32fdd49a3dfebf3c22e9ec8c10db8c882008b4d76943e131de1aaa82943f1d",
+      "group_id": "test-h01",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h01",
+      "template_key": "h01",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-006",
+      "revision": 1,
+      "content_hash": "001623c7259ca932c5ead86800a03617fd84966914731232753db1c306b1a2e4",
+      "group_id": "test-h01",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h01",
+      "template_key": "h01",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-007",
+      "revision": 1,
+      "content_hash": "fee56ccfdf9affff76df802d9179c2a61c55c55d68dbf1bde685abfbdc0bcbfe",
+      "group_id": "test-h02",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h02",
+      "template_key": "h02",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-008",
+      "revision": 1,
+      "content_hash": "880060473399567373bbf615e7c84409088918650f9216229d88e1f941d7fb0a",
+      "group_id": "test-h02",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h02",
+      "template_key": "h02",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-009",
+      "revision": 1,
+      "content_hash": "23c90554544800fd5d57884042465c187514f7552a5121292a2e8e36647a8cc3",
+      "group_id": "test-h02",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h02",
+      "template_key": "h02",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-010",
+      "revision": 1,
+      "content_hash": "293dde80a79e61074bff8d6227d2a8734fd967ee238bfa746c71f78a252c8044",
+      "group_id": "test-h02",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h02",
+      "template_key": "h02",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-011",
+      "revision": 1,
+      "content_hash": "2654198dbbaa1f37f669d94b53f31abf42a4a17853ff540a9f041dc2aa076648",
+      "group_id": "test-h02",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h02",
+      "template_key": "h02",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-012",
+      "revision": 1,
+      "content_hash": "18ec809dca0b88b72f2e0a241e71788f1af579b5acbf5ee546620924a019e68c",
+      "group_id": "test-h02",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h02",
+      "template_key": "h02",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-013",
+      "revision": 1,
+      "content_hash": "aa33c5baa6377d1d32b925c9b97f44ff1046a0b959d34985ffeb03957cc2cfec",
+      "group_id": "test-h03",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h03",
+      "template_key": "h03",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-014",
+      "revision": 1,
+      "content_hash": "d19bc4d4c71cc47dbb0f7f05026c774254e2673487900c53c2610e5aacfd4066",
+      "group_id": "test-h03",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h03",
+      "template_key": "h03",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-015",
+      "revision": 1,
+      "content_hash": "976446c03453e261e506108ede8d1cd6739a74d77d8a8a867b05d94c3ae774e9",
+      "group_id": "test-h03",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h03",
+      "template_key": "h03",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-016",
+      "revision": 1,
+      "content_hash": "fe4694436b57738f98b7012df31aaf133a783de07ab383233f9ee7d5eb049c20",
+      "group_id": "test-h03",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h03",
+      "template_key": "h03",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-017",
+      "revision": 1,
+      "content_hash": "70a37aa69c353213f2ab0200eae60611b878ee18bd2c3771fe01a6ebd72def1b",
+      "group_id": "test-h03",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h03",
+      "template_key": "h03",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-018",
+      "revision": 1,
+      "content_hash": "979730effeac96f5bd59346854ace84e00f991a0026c2f5819c2fde3f4d0b573",
+      "group_id": "test-h03",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h03",
+      "template_key": "h03",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-019",
+      "revision": 1,
+      "content_hash": "0f34dcd0bdc4c9d6880e7214887c1479ecd06c440760013e36c21c17fd3820b7",
+      "group_id": "test-h04",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h04",
+      "template_key": "h04",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-020",
+      "revision": 1,
+      "content_hash": "3737cfc3b8d60d56acc37e1c175654a18218eb63a8ead7e85f84b087b44f1c62",
+      "group_id": "test-h04",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h04",
+      "template_key": "h04",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-021",
+      "revision": 1,
+      "content_hash": "a892f60da1ff7862d55b2e733e7dbd7f489dd3b454701dce389aa649d4ed951f",
+      "group_id": "test-h04",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h04",
+      "template_key": "h04",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-022",
+      "revision": 1,
+      "content_hash": "4a5d366e61f66ad434ce28ccc30f1255a873c9e28def78cc2df56a1289b3fe70",
+      "group_id": "test-h04",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h04",
+      "template_key": "h04",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-023",
+      "revision": 1,
+      "content_hash": "adf21bf24436774ecdfab382a1614b0066fbf99e741720019e6a39f9887e5dbb",
+      "group_id": "test-h04",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h04",
+      "template_key": "h04",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-024",
+      "revision": 1,
+      "content_hash": "63ad462bc54c09f723383216f0cd1192d5e635bd31e23d15cb347ebd4850ef97",
+      "group_id": "test-h04",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h04",
+      "template_key": "h04",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-025",
+      "revision": 1,
+      "content_hash": "98930176037d7db36f4e63ffd661d620eaccb7c919eb498319b919587721a214",
+      "group_id": "test-h05",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h05",
+      "template_key": "h05",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-026",
+      "revision": 1,
+      "content_hash": "fa4525c11b6e21d1b8c78dadaa0a84169f116c056686ab2bc6b7c665eb902f7a",
+      "group_id": "test-h05",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h05",
+      "template_key": "h05",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-027",
+      "revision": 1,
+      "content_hash": "b4409aef1a098f9ac970d5ebf1e85edeb4cb74abd1dbf709b7e725ef5bc14589",
+      "group_id": "test-h05",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h05",
+      "template_key": "h05",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-028",
+      "revision": 1,
+      "content_hash": "e2e4c2602c7930b724f5040f380ad8edeaff06f7e2a65ddaa71333df9834db64",
+      "group_id": "test-h05",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h05",
+      "template_key": "h05",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-029",
+      "revision": 1,
+      "content_hash": "c0cd80954f8d046247ac3d7c01c9dcfb2a653fdde73a9446d90fb34523f96911",
+      "group_id": "test-h05",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h05",
+      "template_key": "h05",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-030",
+      "revision": 1,
+      "content_hash": "14d8003ec8707ef73b2687cc517986fa6e433917fd8d5e24267f0eb460a92879",
+      "group_id": "test-h05",
+      "split": "test",
+      "review_status": "draft",
+      "category": "single",
+      "case_family": "h05",
+      "template_key": "h05",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-031",
+      "revision": 1,
+      "content_hash": "e74affd8dbff1986e2e6dc65b60917df2b5b84010772703bf459e11f719cb483",
+      "group_id": "test-h06",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h06",
+      "template_key": "h06",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-032",
+      "revision": 1,
+      "content_hash": "314c6b3f9ffba3252c742fd746e961e0270892c4d7f9f3fdf13a29be563bf87e",
+      "group_id": "test-h06",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h06",
+      "template_key": "h06",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-033",
+      "revision": 1,
+      "content_hash": "15c93f0893ddf369efb31799f2e93509eb792b30e0c198745f89283a70ffbb5a",
+      "group_id": "test-h06",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h06",
+      "template_key": "h06",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-034",
+      "revision": 1,
+      "content_hash": "c977985e3caaf3840df009c29edb6699ad21446108518c7a7d8ee4217a70687d",
+      "group_id": "test-h06",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h06",
+      "template_key": "h06",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-035",
+      "revision": 1,
+      "content_hash": "560ab7962702a3cea83bece30a3019bfed4e3218ab09371543072b593aa9248d",
+      "group_id": "test-h06",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h06",
+      "template_key": "h06",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-036",
+      "revision": 1,
+      "content_hash": "5f2679269bdf6905f789c2dabd36b56c810eec56338fd490dc7d1e66e1261b4c",
+      "group_id": "test-h07",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h07",
+      "template_key": "h07",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-037",
+      "revision": 1,
+      "content_hash": "3e5bbd93ae48a0fc3f5a77619d692e789d4a2c242458b4a1daa565a48b839c77",
+      "group_id": "test-h07",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h07",
+      "template_key": "h07",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-038",
+      "revision": 1,
+      "content_hash": "d0657046df7d4584dc632ce97770bd27e62f1683b7f103b4606c2e65143a3306",
+      "group_id": "test-h07",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h07",
+      "template_key": "h07",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-039",
+      "revision": 1,
+      "content_hash": "5e77ac0d7821ec33bda96129fc759f2504baa88f18668eeafa3de958c7868729",
+      "group_id": "test-h07",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h07",
+      "template_key": "h07",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-040",
+      "revision": 1,
+      "content_hash": "13bc74ee17f40eb2bf8705ad7bac895529819830ae700e7ac8499bf463f34272",
+      "group_id": "test-h07",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h07",
+      "template_key": "h07",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-041",
+      "revision": 1,
+      "content_hash": "109775f64c4f1ffd811976c774a0992e3f6f5961d7353becf1a78da646114922",
+      "group_id": "test-h08",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h08",
+      "template_key": "h08",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-042",
+      "revision": 1,
+      "content_hash": "71d3bba1d1a78ab0ebb032a4beacb4c443d862eeca7d029fafeaa98f0a5faa64",
+      "group_id": "test-h08",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h08",
+      "template_key": "h08",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-043",
+      "revision": 1,
+      "content_hash": "ffcca757708e9501cbd642e4dfd53fa7f41b591a6509b0755bdf9125fac0ee44",
+      "group_id": "test-h08",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h08",
+      "template_key": "h08",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-044",
+      "revision": 1,
+      "content_hash": "e2ff25d29b4f7adce139a5b73e4f8496b7b7bb188768ecfb9e75ebdb2692a5b1",
+      "group_id": "test-h08",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h08",
+      "template_key": "h08",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-045",
+      "revision": 1,
+      "content_hash": "4b4a4612c76955ba739c5efe63ccc33473206efb37145c6b77bbf527bf712edc",
+      "group_id": "test-h08",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h08",
+      "template_key": "h08",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-046",
+      "revision": 1,
+      "content_hash": "0354db30d21e7ec1c80699b14ceac5b707dab8970f6fdc18695df4282c5a6794",
+      "group_id": "test-h09",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h09",
+      "template_key": "h09",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-047",
+      "revision": 1,
+      "content_hash": "973470fc01664bbd834d936a9d0cf6a8ce744fefa948d8447922759e79a5b1de",
+      "group_id": "test-h09",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h09",
+      "template_key": "h09",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-048",
+      "revision": 1,
+      "content_hash": "1e50f47f1a328b6d05720b799184effa83c2fb1cc69857c829948047037a24ef",
+      "group_id": "test-h09",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h09",
+      "template_key": "h09",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-049",
+      "revision": 1,
+      "content_hash": "33f360c6137b666eb3484cfbdeefd529500978c2d40aa5a373bb6675d8451d9a",
+      "group_id": "test-h09",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h09",
+      "template_key": "h09",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-050",
+      "revision": 1,
+      "content_hash": "367faf7487a4c1f1da03bf9e74e01f9b184e4060d9ba3ebe25415396c875fec7",
+      "group_id": "test-h09",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h09",
+      "template_key": "h09",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-051",
+      "revision": 1,
+      "content_hash": "f42b88fc3214699db9a65fa8c94f0504d6f17c7ccccd6495ea5704cb120797da",
+      "group_id": "test-h10",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h10",
+      "template_key": "h10",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-052",
+      "revision": 1,
+      "content_hash": "06a6e79f4bb151d18479c66fbd334847f64cad7969b9cf023f3707b93fc208f2",
+      "group_id": "test-h10",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h10",
+      "template_key": "h10",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-053",
+      "revision": 1,
+      "content_hash": "cf4309327bc02c53535aecb6d8c070ef48b3f8c38a86cce9693f868f6a9fb2e2",
+      "group_id": "test-h10",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h10",
+      "template_key": "h10",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-054",
+      "revision": 1,
+      "content_hash": "7634032e5dc5d461fc27861df2c508de268194246a7f40a56d2ba19e7771936d",
+      "group_id": "test-h10",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h10",
+      "template_key": "h10",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-055",
+      "revision": 1,
+      "content_hash": "d6f973e5892faf8f5de407da0036776cea860d31412b92939aef14d6ec7f0c5f",
+      "group_id": "test-h10",
+      "split": "test",
+      "review_status": "draft",
+      "category": "multiple_exception",
+      "case_family": "h10",
+      "template_key": "h10",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-056",
+      "revision": 1,
+      "content_hash": "601fb7a774ab2de46b49f7f08291da129fc54ebc72c7cc19c4dd7059d1b681f2",
+      "group_id": "test-h11",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h11",
+      "template_key": "h11",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-057",
+      "revision": 1,
+      "content_hash": "122ad690e988aef03f02ebde5f138b2b55e7be76320bfdb99eec49e13312964d",
+      "group_id": "test-h11",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h11",
+      "template_key": "h11",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-058",
+      "revision": 1,
+      "content_hash": "f8ae241fde800824127423adeedb448030f3b6503b2fa689b4d97930e8e77b18",
+      "group_id": "test-h11",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h11",
+      "template_key": "h11",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-059",
+      "revision": 1,
+      "content_hash": "2c08beeaeabf3e138277efeb29a5f5b9163e536d984ad93579ccf3e123f37dcd",
+      "group_id": "test-h11",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h11",
+      "template_key": "h11",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-060",
+      "revision": 1,
+      "content_hash": "c1b9fb6e5f6e0bc34dfcf566f215a3e0c82d7dfd5aab5e98543d62c7710a1652",
+      "group_id": "test-h11",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h11",
+      "template_key": "h11",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-061",
+      "revision": 1,
+      "content_hash": "9e6cbb358341feeae5ce6782c6a06df6c277d410870a09c96f3d9610a0ca8e4d",
+      "group_id": "test-h12",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h12",
+      "template_key": "h12",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-062",
+      "revision": 1,
+      "content_hash": "954515a1125341d2b2be869bfafeb961c36a2826d31502e2c862b99eb7974cd6",
+      "group_id": "test-h12",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h12",
+      "template_key": "h12",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-063",
+      "revision": 1,
+      "content_hash": "29cf0eef96158999dc6057c92e3b30a3cae3d68af19da714bf44514592f8c5ae",
+      "group_id": "test-h12",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h12",
+      "template_key": "h12",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-064",
+      "revision": 1,
+      "content_hash": "84aea9047fccf749c6183109162046dfc64d5c2ca9a0568dbcc8d7f35910c6b8",
+      "group_id": "test-h12",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h12",
+      "template_key": "h12",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-065",
+      "revision": 1,
+      "content_hash": "0e30e91bd23f1833f60d22cb7d837168c79a58f1b1597e6354ed018b011d5a0a",
+      "group_id": "test-h12",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h12",
+      "template_key": "h12",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-066",
+      "revision": 1,
+      "content_hash": "0fe7c305335769d5906846d4ea43b9ac9335cbd92124895c81d89443ab71cc59",
+      "group_id": "test-h13",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h13",
+      "template_key": "h13",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-067",
+      "revision": 1,
+      "content_hash": "af48e6fdd499f1299a93bfa9f98ad0b2feb50482cab0d6de17a351b5a27e66c3",
+      "group_id": "test-h13",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h13",
+      "template_key": "h13",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-068",
+      "revision": 1,
+      "content_hash": "60c9eedad49cdd3fd70bfb1725df27b77c093cbce970f983f944ad578cb29b57",
+      "group_id": "test-h13",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h13",
+      "template_key": "h13",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-069",
+      "revision": 1,
+      "content_hash": "e5e5c5e557705f9655843962e5fe7037edaa9d7592bc05f370d1a75c9cec6ca6",
+      "group_id": "test-h13",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h13",
+      "template_key": "h13",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-070",
+      "revision": 1,
+      "content_hash": "1dcf5229d7911eb072f252edee837967a42ca28e41d3c23c2e39d222ac39be27",
+      "group_id": "test-h13",
+      "split": "test",
+      "review_status": "draft",
+      "category": "temporal",
+      "case_family": "h13",
+      "template_key": "h13",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-071",
+      "revision": 1,
+      "content_hash": "d1a565dd447761d75a1ef56cc61e5d3a01bfdd2e4bc5fcd55bfd22ed2c25a981",
+      "group_id": "test-h14",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h14",
+      "template_key": "h14",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-072",
+      "revision": 1,
+      "content_hash": "ad7492fbc9fc685d18e813de3493dbc66bb8f40817b2e539eeafdeaaa3f7a407",
+      "group_id": "test-h14",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h14",
+      "template_key": "h14",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-073",
+      "revision": 1,
+      "content_hash": "576a3f1c97726eac53d56336da858e7cb4cc1e6542b7125076849f969704fd1b",
+      "group_id": "test-h14",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h14",
+      "template_key": "h14",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-074",
+      "revision": 1,
+      "content_hash": "e938b02678f90a6ee2378d48de01a0b0c194afee3061d5261e8ef30fb80fddba",
+      "group_id": "test-h14",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h14",
+      "template_key": "h14",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-075",
+      "revision": 1,
+      "content_hash": "f803a94ffebe37ba05c93cb98c9f54600fa6cf96fad97b0076393e6893aeb07e",
+      "group_id": "test-h14",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h14",
+      "template_key": "h14",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-076",
+      "revision": 1,
+      "content_hash": "6ed471248fa966fea212c7876fb2891f2537d490ef3f83437c1b50290973fdb5",
+      "group_id": "test-h15",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h15",
+      "template_key": "h15",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-077",
+      "revision": 1,
+      "content_hash": "8bb1132acc30493017ac92acf361461928944ce3b292dccf6a4b653250cc861b",
+      "group_id": "test-h15",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h15",
+      "template_key": "h15",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-078",
+      "revision": 1,
+      "content_hash": "e8320ad1a340300428a616487b7e363ff8419235ed15597755ce1a722214a3b8",
+      "group_id": "test-h15",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h15",
+      "template_key": "h15",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-079",
+      "revision": 1,
+      "content_hash": "15953489bc83a3577a7d0be7afc0866cd7eebdc2cd4616c0242961afb9e6b80e",
+      "group_id": "test-h15",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h15",
+      "template_key": "h15",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-080",
+      "revision": 1,
+      "content_hash": "b937535afe99e8cd5319fec24db8a167eecedbd096c34ca7f0d376206a0f75a5",
+      "group_id": "test-h15",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h15",
+      "template_key": "h15",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-081",
+      "revision": 1,
+      "content_hash": "30b8a06f52857bb198f94aa85a6728332559bbc22e5a572d53a27679f8371da2",
+      "group_id": "test-h16",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h16",
+      "template_key": "h16",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-082",
+      "revision": 1,
+      "content_hash": "1474ff8e366973c1090dfcc5f3e629d2f4e6836859065cfd18ae54decc3b91a9",
+      "group_id": "test-h16",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h16",
+      "template_key": "h16",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-083",
+      "revision": 1,
+      "content_hash": "4a2269555fc84cb32ebf8f7b8dd48fd0b2a498749267a304cc7a276492a1d39c",
+      "group_id": "test-h16",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h16",
+      "template_key": "h16",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-084",
+      "revision": 1,
+      "content_hash": "abe69857a6b841f70d864aee35bba996691d7f58eae3fc1930a11c9f6ebef752",
+      "group_id": "test-h16",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h16",
+      "template_key": "h16",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-085",
+      "revision": 1,
+      "content_hash": "041b28a2a39d34653efe9e2748b088c186f7e37c1c35f8f7f13517ee8c2f92c9",
+      "group_id": "test-h16",
+      "split": "test",
+      "review_status": "draft",
+      "category": "missing_facts",
+      "case_family": "h16",
+      "template_key": "h16",
+      "issue_keys": [
+        "loan-disclosure"
+      ]
+    },
+    {
+      "example_id": "s1-test-086",
+      "revision": 1,
+      "content_hash": "e3c8055fbbf97a1e4e44c087d7454ffd1cbaef37099054bdcfbf074076829f22",
+      "group_id": "test-h17",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h17",
+      "template_key": "h17",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-087",
+      "revision": 1,
+      "content_hash": "2bc18540c67b81d8498a63d0a4523c4126a820ba13bfcf2bade8fbb348475eb7",
+      "group_id": "test-h17",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h17",
+      "template_key": "h17",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-088",
+      "revision": 1,
+      "content_hash": "b4e52966c202efb73ef91ca8052a629ead774eb51cb9cb99eaa2ea13036d7354",
+      "group_id": "test-h17",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h17",
+      "template_key": "h17",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-089",
+      "revision": 1,
+      "content_hash": "bc1c340a1f13ea24e7f116470bfe907309ff9a49b06b73b81e13e4e765458b39",
+      "group_id": "test-h17",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h17",
+      "template_key": "h17",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-090",
+      "revision": 1,
+      "content_hash": "b5d450c9df6afd78f899854ed93e2e6b113fe47c228d2fda8afbd6f99be36057",
+      "group_id": "test-h17",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h17",
+      "template_key": "h17",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-091",
+      "revision": 1,
+      "content_hash": "14591bf60b39c45f8d9de1d7ce5d3943ce5b42f752a6a8ea071a93f3b968cb7d",
+      "group_id": "test-h18",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h18",
+      "template_key": "h18",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-092",
+      "revision": 1,
+      "content_hash": "7cc1c0de34e1aa7f62496f8b529bd0dd311e8014e69e9f9cd8530f6840b64e35",
+      "group_id": "test-h18",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h18",
+      "template_key": "h18",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-093",
+      "revision": 1,
+      "content_hash": "8ac11331cc539cf5940ca07c0dc1e4dd2709302342e4f6a2aef876139110ebb6",
+      "group_id": "test-h18",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h18",
+      "template_key": "h18",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-094",
+      "revision": 1,
+      "content_hash": "16fcf4d99a776312d82cc4e423382cdfb51468b08028af8e34d412a392b77f9c",
+      "group_id": "test-h18",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h18",
+      "template_key": "h18",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-095",
+      "revision": 1,
+      "content_hash": "450a8629ab650afb62a4b25d31376cb7976e5333b0d448cc24ea12500f81bc02",
+      "group_id": "test-h18",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h18",
+      "template_key": "h18",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-096",
+      "revision": 1,
+      "content_hash": "32073ef6b3285ebb5fc9bc9c0fe55bdd60d59e6bf5f4e04c01cb0bf2ff29a5e2",
+      "group_id": "test-h19",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h19",
+      "template_key": "h19",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-097",
+      "revision": 1,
+      "content_hash": "4763927d238182d3d09af7360b89619a8b45aa7b2b87341d79749e84853ac980",
+      "group_id": "test-h19",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h19",
+      "template_key": "h19",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-098",
+      "revision": 1,
+      "content_hash": "94cccd728e10a8339f8b24392ce5acc87c65729bb2c5a68f1764baec3b1a02f0",
+      "group_id": "test-h19",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h19",
+      "template_key": "h19",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-099",
+      "revision": 1,
+      "content_hash": "9990843fa3d6be01ebbc8d0388882f994f81a311358ad9fdfffc4e8b1e14fdd8",
+      "group_id": "test-h19",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h19",
+      "template_key": "h19",
+      "issue_keys": [
+        "scope"
+      ]
+    },
+    {
+      "example_id": "s1-test-100",
+      "revision": 1,
+      "content_hash": "d1213311621a06771c9b072744aa202ef5e143f138ae2268379e380ec918a897",
+      "group_id": "test-h19",
+      "split": "test",
+      "review_status": "draft",
+      "category": "out_of_scope_no_evidence",
+      "case_family": "h19",
+      "template_key": "h19",
+      "issue_keys": [
+        "scope"
+      ]
+    }
+  ],
+  "artifacts": {
+    "dev": {
+      "path": "data/review/development-50",
+      "examples_sha256": "539570ab1f0d16977bdbcb4171b783370d998cf59d96682371b31edb53b93092"
+    },
+    "test": {
+      "path": "data/holdout/candidates-v1",
+      "examples_sha256": "5d4f2a3a511aea0874ef0fa7ba9247f7bbcd970f0095e0873eafd8c7f4093ce1"
+    }
+  },
+  "audit": {
+    "counts": {
+      "dev": 50,
+      "test": 100
+    },
+    "test_category_counts": {
+      "single": 30,
+      "multiple_exception": 25,
+      "temporal": 15,
+      "missing_facts": 15,
+      "out_of_scope_no_evidence": 15
+    },
+    "targets": {
+      "dev": 50,
+      "test": 100
+    },
+    "test_category_targets": {
+      "single": 30,
+      "multiple_exception": 25,
+      "temporal": 15,
+      "missing_facts": 15,
+      "out_of_scope_no_evidence": 15
+    },
+    "target_counts_match": true,
+    "unique_examples": 150,
+    "reviewed": 0,
+    "pending_review": 150,
+    "groups": {
+      "dev": 6,
+      "test": 19
+    },
+    "distinct_normalized_questions": {
+      "dev": 50,
+      "test": 100
+    },
+    "findings": [
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-001"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-001"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-002"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-002"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-003"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-003"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-004"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-004"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-005"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-005"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-006"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-006"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-007"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-007"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-008"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-008"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-009"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-009"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-010"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-010"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-011"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-011"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-012"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-012"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-013"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-014"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-015"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-016"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-017"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-018"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-019"
+        ]
+      },
+      {
+        "kind": "shared_issue",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-020"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-031"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-032"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-033"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-034"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-035"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-041"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-042"
+        ]
+      },
+      {
+        "kind": "shared_evidence",
+        "severity": "review",
+        "ids": [
+          "s1-dev-01",
+          "s1-test-043"
+        ]
+      }
+    ],
+    "finding_counts": {
+      "shared_issue": 4110,
+      "shared_evidence": 2536
+    },
+    "finding_sample_limit_per_kind": 20,
+    "split_review_status": "needs_review",
+    "ready_for_evaluation": false,
+    "sealed": false,
+    "human_review_time_estimate_seconds": null
+  },
+  "initial_20_counted_once": true,
+  "review_plan": {
+    "calibration_items": 5,
+    "human_minutes_per_item": null,
+    "development_target": 50,
+    "test_target": 100,
+    "sealed": false
+  }
+}

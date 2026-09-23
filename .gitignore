@@ -18,6 +18,7 @@ data/raw/
 data/processed/
 data/review/submissions/
 data/sealed/
+data/holdout/
 models/
 artifacts/
 *.log
