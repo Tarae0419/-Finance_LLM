@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "scope": "project-knowledge",
+  "hash_format": "sha256-utf8-lf",
+  "sources": [
+    {
+      "path": "docs/FinReg_LLM_PRD_v1.md",
+      "sha256": "9d3f9beabdecfa5a54e0544b9c0c9837bc6b96b811aa3e314d7f0d388b0290fe"
+    },
+    {
+      "path": "docs/corpus_status.md",
+      "sha256": "4ab54b97e1a01922b5e59809bdd8df2701ddd60c54c358e5b8c0c814a7a172a2"
+    },
+    {
+      "path": "docs/data_model.md",
+      "sha256": "97c8841c873867cc2a7dd0093ab902fe6a229fb3b6b9c70436a0e70ed2de8566"
+    },
+    {
+      "path": "docs/llm_wiki.md",
+      "sha256": "7d3330f7c9b9df9cc40383f37f353485a7288e3b13291c1894c5a8c669206ff2"
+    },
+    {
+      "path": "docs/review_policy.md",
+      "sha256": "f07b6b699a0966627129c2f194e746bd90cef5e1ba028233fb029963e0f6cc89"
+    },
+    {
+      "path": "docs/review_workbench.md",
+      "sha256": "1eb9aecff886fc56ff936011d4dae5c7f3c2400d7b71c90df2d227195ffe62a7"
+    },
+    {
+      "path": "docs/wiki_retrieval.md",
+      "sha256": "fe75b4d573b70c381912c2a4539e081876187b3c2583265e3d8af314f1fde411"
+    }
+  ],
+  "pages": [
+    {
+      "path": "wiki/concepts/evidence-and-time.md",
+      "sources": [
+        "docs/data_model.md",
+        "docs/FinReg_LLM_PRD_v1.md",
+        "docs/corpus_status.md"
+      ]
+    },
+    {
+      "path": "wiki/concepts/retrieval-and-wiki.md",
+      "sources": [
+        "docs/llm_wiki.md",
+        "docs/FinReg_LLM_PRD_v1.md",
+        "docs/wiki_retrieval.md"
+      ]
+    },
+    {
+      "path": "wiki/concepts/evaluation-boundary.md",
+      "sources": [
+        "docs/review_policy.md",
+        "docs/FinReg_LLM_PRD_v1.md",
+        "docs/llm_wiki.md",
+        "docs/wiki_retrieval.md",
+        "docs/review_workbench.md"
+      ]
+    }
+  ]
+}

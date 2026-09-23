@@ -40,6 +40,33 @@ uv run --frozen python scripts/dev_db.py stop
 
 `bootstrap`은 DB를 시작한 상태로 끝난다. 이미 실행 중일 때 `start`를 반복하지 않는다. Docker 방식과 같은 포트를 사용하므로 두 방식을 동시에 실행하지 않는다. 한글 경로에서 PostgreSQL 초기화가 실패하는 문제를 피하기 위해 `.runtime/postgres`에 임시 드라이브 별칭(R:~Z: 중 빈 문자)을 연결한다. 데이터는 프로젝트 안에 유지하고 `stop`에서 별칭을 해제한다.
 
+## 프로젝트 Wiki
+
+LLM이 출처를 읽고 개념·결정·관계를 축적하는 [Wiki](wiki/index.md)를 사용한다. 현재는 개발 지식 탐색용이며, 법규 답변의 근거는 버전이 고정된 공식 원문에서 확인한다. Wiki를 서비스 검색에 연결하는 방안은 기존 RAG와 비교한 뒤 채택한다.
+
+- [근거·버전·시점](wiki/concepts/evidence-and-time.md)
+- [RAG와 Wiki의 역할](wiki/concepts/retrieval-and-wiki.md)
+- [검수·평가 데이터 경계](wiki/concepts/evaluation-boundary.md)
+- [도입 판단과 운영 방법](docs/llm_wiki.md)
+
+출처가 바뀌거나 파일 링크가 끊어지면 다음 검사가 실패한다. 검사는 의미 검수나 법규 최신성 검증을 대신하지 않는다.
+
+```powershell
+uv run --frozen python scripts/check_wiki.py
+```
+
+Wiki의 법규 검색 보조를 검증할 [오프라인 실험 도구](docs/wiki_retrieval.md)도 제공한다. BM25 원문 검색과 Wiki 후보 확장을 비교하며, 검증된 스냅샷·사람 검수된 개발 문항만 사용한다. 현재 실제 데이터는 이 선행 조건을 충족하지 않아 가상 규정으로 처리 경로를 검증했다. 서비스 검색이나 답변 생성은 활성화하지 않았다.
+
+```powershell
+uv run --frozen python scripts/experiment_wiki.py status
+```
+
+## 개발 문항 검수
+
+이 PC에서는 [개발 50문항 검수 화면](artifacts/review-workbench/development-20260923/index.html)을 브라우저로 열어 질문·답변 초안과 원문·부모 조문·별표 PDF를 함께 확인할 수 있다. 작성 내용을 파일로 저장·복원하고 검수 결과를 기존 등록 명령용 JSON으로 내보낸다. DB 상태를 자동 변경하지 않는다.
+
+다른 환경에서는 [검수 화면 생성·등록 안내](docs/review_workbench.md)에 따라 새 묶음을 만든다. 실제 검수와 원문 스냅샷 활성화는 별도 작업이다.
+
 ## 검증
 
 ```powershell

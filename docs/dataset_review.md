@@ -4,6 +4,8 @@ S1-05의 초기 20문항을 [검수 목록](../data/review/initial-20/README.md)
 
 ## 검수하기
 
+JSON을 직접 편집하는 대신 [로컬 검수 화면](review_workbench.md)에서 개발 50문항의 원문·부모 문맥·별표를 함께 보고 입력할 수 있다. 화면에서 내려받은 검수 JSON은 아래와 같은 등록 명령을 사용한다. 작성 중 저장 파일은 검수 등록 파일과 구분한다.
+
 1. `review-template.json`에서 검토할 문항의 객체를 복사해 `data/review/submissions/my-review.json`에 저장한다. 한 객체 또는 객체 배열을 받을 수 있다. 이 폴더는 검수자의 신원 기록이 의도치 않게 커밋되지 않도록 Git에서 제외한다.
 2. `examples.json`의 질문·답변 후보·근거를 공식 원문과 직접 대조한다. 존재·의미·시점·완전성 네 항목의 `result`와 `reason`을 각각 작성한다. 결과는 `pass`, `fail`, `uncertain`, `pending` 중 하나다. 근거 없는 범위 밖 문항은 검수 항목을 적용한 방식도 사유에 적는다.
 3. 실제 검수자 이름, `reviewer_role` (`developer`/`external`), 구체적인 역할, 시간대가 있는 `review_date`, 검수 방법과 소요 초를 기입한다. 시각 형식은 `YYYY-MM-DDTHH:MM:SS+09:00`이다. `human_attested`는 본인이 실제 검수를 수행한 경우에만 `true`로 바꾼다.
@@ -39,7 +41,7 @@ uv run --frozen python scripts/review_dataset.py prepare-review --example s1-dev
 uv run --frozen python scripts/review_dataset.py export-reviewed --dataset s1-initial-20-v1 --split dev --output data/processed/dev-reviewed.json
 ```
 
-현재 리비전이 `reviewed`인 문항만 내보낸다. 0건이면 실패하며 기존 출력 파일도 덮어쓰지 않는다. 이 경로로 최종 평가 `test` 자료를 내보낼 수 없다. 아직 최종 100문항·봉인 파일·파일 권한 분리는 구현하지 않았다. `data/sealed`의 Git 제외는 봉인 자체가 아니다. S1-08/S2-05에서 별도 그룹과 저장 위치·해시·접근 경로를 준비해야 한다.
+현재 리비전이 `reviewed`인 문항만 내보낸다. 0건이면 실패하며 기존 출력 파일도 덮어쓰지 않는다. 이 경로로 최종 평가 `test` 자료를 내보낼 수 없다. 최종 평가셋의 사람 검수·봉인·파일 권한 분리는 아직 완료하지 않았다. `data/sealed`의 Git 제외는 봉인 자체가 아니다. S1-08/S2-05의 그룹·저장 위치·해시·접근 경로를 별도로 검증해야 한다.
 
 ## 작업량 기록
 
