@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>FinReg 개발 문항 검수</title>
+<style>
+:root{font-family:system-ui,'Malgun Gothic',sans-serif;color:#1c2b40;background:#f1f4f8;line-height:1.6}
+*{box-sizing:border-box}body{margin:0}header{background:#142c47;color:white;padding:22px 30px}h1{font-size:24px;margin:0 0 6px}header p{margin:0;color:#d6e5f7}main{max-width:1500px;margin:auto;padding:24px}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}button,.file-label,select,input,textarea{font:inherit}button,.file-label{cursor:pointer;border:1px solid #8aa0b8;border-radius:6px;padding:8px 12px;background:white;color:#173754}button.primary{background:#174c7e;color:white;border-color:#174c7e}button:disabled{opacity:.45;cursor:default}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #52a8e5;outline-offset:2px}.layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(340px,1fr);gap:22px}.panel{background:white;border:1px solid #d7e0ea;border-radius:10px;padding:22px;margin-bottom:16px}h2{font-size:20px;margin:0 0 12px}h3{font-size:16px;margin:18px 0 8px}p{margin:8px 0}.notice{background:#fff5dc;border-left:4px solid #d99221;padding:12px 16px;margin-bottom:18px}.muted{color:#56697c;font-size:13px}.pre{white-space:pre-wrap;overflow-wrap:anywhere}.source{border-top:1px solid #d8e2ec;padding:14px 0}.quote{background:#edf5fc;border-left:3px solid #5687b0;padding:12px;white-space:pre-wrap}details{margin:10px 0}summary{cursor:pointer;color:#164c7d}label{display:block;font-weight:600;margin:12px 0 4px}input:not([type=checkbox]),textarea,select{width:100%;border:1px solid #aab8c6;border-radius:5px;padding:8px;background:white;color:#142c47}textarea{min-height:75px;resize:vertical}.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.check{border:1px solid #dce4ed;border-radius:7px;padding:10px 14px;margin:12px 0}.check label{margin-top:4px}a{color:#12578d;overflow-wrap:anywhere}.badge{background:#edf1f5;padding:3px 8px;border-radius:4px;font-size:13px}#message{padding:12px;min-height:48px;color:#8a251c;white-space:pre-wrap}#example-select{max-width:520px}.file-label input{display:none}code{overflow-wrap:anywhere}.small{font-size:13px}.checkbox{display:flex;gap:10px;align-items:flex-start;font-weight:500}#cross-checks{min-height:100px;font-family:monospace}footer{padding:10px 0 30px}.result-fail{color:#a12620}
+@media(max-width:900px){.layout{grid-template-columns:1fr}main{padding:12px}.row{grid-template-columns:1fr}header{padding:18px}}
+</style>
+</head>
+<body>
+<header><h1>개발 문항 검수</h1><p>질문과 초안을 원문에 대조하고 검수 기록을 작성합니다.</p></header>
+<main>
+<div class="notice">이 화면은 생성 시점의 개발 자료 사본입니다. 원문·시점 검수와 DB 등록은 별도이며, 화면에서 통과를 선택해도 데이터가 자동 승인되지 않습니다.</div>
+<div class="toolbar">
+<button id="previous" type="button">이전</button><select id="example-select" aria-label="검수할 문항"></select><button id="next" type="button">다음</button>
+<button id="save-progress" type="button">작성 중인 내용 저장</button>
+<label class="file-label" style="margin:0">저장한 내용 불러오기<input id="load-progress" type="file" accept=".json,application/json"></label>
+<span id="progress" class="muted"></span>
+</div>
+<div class="layout">
+<section aria-label="문항과 근거"><div class="panel"><h2 id="question"></h2><div id="meta" class="muted pre"></div><h3>사실관계</h3><div id="facts" class="pre"></div><h3>답변 초안</h3><div id="answer" class="pre"></div><h3>한계와 확인 사항</h3><div id="limitations" class="pre"></div></div><div class="panel"><h2>근거와 원문</h2><p class="muted">문서 시행일과 조문 적용 기간을 구분해 확인하세요. 별표는 해당 버전의 목록이며 각 질문과의 관련성은 별도 확인해야 합니다.</p><div id="sources"></div></div></section>
+<section class="panel" aria-label="검수 기록"><h2>검수 기록 작성</h2><p class="muted">검수하지 않은 항목은 ‘미검토’로 남깁니다. 내용은 이 창의 메모리에만 유지되므로 닫기 전에 파일로 저장하세요.</p>
+<form id="review-form">
+<div class="row"><div><label for="reviewer">검수자</label><input id="reviewer" autocomplete="off"></div><div><label for="reviewer_role">검수 역할</label><select id="reviewer_role"><option value="developer">개발자 검수</option><option value="external">외부 검토</option></select></div></div>
+<label for="reviewer_role_detail">구체적인 역할</label><input id="reviewer_role_detail" autocomplete="off">
+<label for="method">검수 방법</label><input id="method" placeholder="실제로 수행한 원문 대조 방법">
+<div class="row"><div><label for="review_date">검수 일시 (이 PC의 현지 시간)</label><input id="review_date" type="datetime-local" step="1"><button type="button" id="now" class="small">현재 시각 입력</button></div><div><label for="duration_seconds">실제 검수 소요 시간 (초)</label><input id="duration_seconds" type="number" min="0" step="1"></div></div>
+<div id="checks"></div>
+<label for="cross-checks">공식 FAQ·해석자료 대조 기록 (JSON 배열)</label><p class="muted">개발자 검수에서 ‘검수 완료’가 되려면 공식 대조 기록이 필요합니다. 실제 확인한 자료만 기입하세요.</p><textarea id="cross-checks" spellcheck="false">[]</textarea>
+<details class="small"><summary>기록 형식 보기</summary><pre class="pre">[{"source_url": "공식 금융위·금감원 HTTPS URL", "locator": "문항·페이지", "note": "실제 대조 결과"}]</pre></details>
+<label for="excluded_reason">평가 대상 제외 사유 (해당할 때만)</label><textarea id="excluded_reason"></textarea>
+<label class="checkbox"><input id="human_attested" type="checkbox"><span>본인이 표시한 검수 항목을 직접 대조했으며 이 기록은 실제 검수 결과임을 확인합니다.</span></label>
+<div id="message" role="status" aria-live="polite"></div>
+<button id="export-review" type="button" class="primary">현재 문항의 검수 JSON 저장</button>
+</form></section>
+</div>
+<footer class="muted">저장한 검수 JSON은 저장소의 <code>data/review/submissions/</code>로 옮긴 뒤 등록하세요.<br><code>uv run --frozen python scripts/review_dataset.py import-reviews data/review/submissions/파일명.json --attest-human-review</code><br>등록할 때 현재 문항 리비전·해시·근거를 다시 검사합니다. 이 작업은 법규 스냅샷을 활성화하지 않습니다.</footer>
+</main>
+<script id="bundle" type="application/json">__BUNDLE_JSON__</script>
+<script>
+'use strict';
+const bundle = JSON.parse(document.getElementById('bundle').textContent);
+const entries = bundle.examples;
+const checks = {existence:'존재 — 조문과 발췌가 지정 버전에 있는가',meaning:'의미 — 원문이 실제 주장을 뒷받침하는가',temporal:'시점 — 기준일과 경과조치에 적합한가',completeness:'완전성 — 정의·위임·예외·부칙·별표가 빠지지 않았는가'};
+const results = {pending:'미검토',pass:'통과',fail:'불일치',uncertain:'판단 불확실'};
+const fields = ['reviewer','reviewer_role','reviewer_role_detail','method','review_date','duration_seconds','cross-checks','excluded_reason','human_attested'];
+let current = 0, dirty = false, formDirty = false;
+const edits = new Map();
+const $ = id => document.getElementById(id);
+function node(tag,text,className){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;}
+function message(text){$('message').textContent=text;}
+function link(parent,label,url,local=false){
+  try{
+    if(local){if(!/^assets\/[a-f0-9]{64}\.pdf$/.test(url))return;}
+    else{const u=new URL(url);if(u.protocol!=='https:'||!['law.go.kr','www.law.go.kr','fsc.go.kr','www.fsc.go.kr','fss.or.kr','www.fss.or.kr'].includes(u.hostname)||u.username||u.password)return;}
+    const a=node('a',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';parent.append(a,node('span',' '));
+  }catch{return;}
+}
+function detail(parent,title,text){const d=node('details');d.append(node('summary',title),node('div',text,'pre'));parent.append(d);}
+for(const [key,label] of Object.entries(checks)){
+  const box=node('div',undefined,'check'), select=node('select');select.id=key;
+  const l=node('label',label);l.htmlFor=key;box.append(l);
+  for(const [value,label] of Object.entries(results)){const option=node('option',label);option.value=value;select.append(option);}
+  const reason=node('textarea');reason.id=key+'-reason';reason.setAttribute('aria-label',label+'의 판단 사유');reason.placeholder='대조한 위치와 판단 이유';box.append(select,reason);$('checks').append(box);fields.push(key,key+'-reason');
+}
+function readForm(){const values={};for(const key of fields)values[key]=key==='human_attested'?$(key).checked:$(key).value;return values;}
+function saveCurrent(){if(formDirty)edits.set(entries[current].example.example_id,readForm());formDirty=false;}
+function renderSource(parent,item){
+  if(!item.available){parent.append(node('p','스냅샷에서 근거를 찾을 수 없습니다.','result-fail'));return;}
+  parent.append(node('h3',[item.title,item.article,item.paragraph,item.item].filter(Boolean).join(' ')));
+  parent.append(node('p','자료 종류: '+item.document_type+' · 시점 검수: '+item.temporal_review_status,'badge'));
+  parent.append(node('p','공포일: '+(item.promulgated_at||'미확인')+' / 문서 시행일: '+(item.effective_from||'미확인')+'\n조문 적용 기간: '+(item.valid_from||'미확인')+' ~ '+(item.valid_to_exclusive||'종료 경계 미확인')+' (종료일 제외)','muted pre'));
+  link(parent,'공식 원문 열기',item.source_url);
+  parent.append(node('div',item.text,'pre'));
+  detail(parent,'원문 버전·위치·해시',JSON.stringify({provision_id:item.provision_id,version_id:item.version_id,source_offsets:item.source_offsets,raw_sha256:item.raw_sha256,collected_at:item.collected_at},null,2));
+  if(item.transition_refs.length)detail(parent,'경과조치 참조 — 별도 확인 필요',JSON.stringify(item.transition_refs,null,2));
+  if(item.relations.length)detail(parent,'참조 관계 '+item.relations.length+'개 — 미해결 여부 확인',JSON.stringify(item.relations,null,2));
+  if(item.attachments.length){const d=node('details');d.append(node('summary','해당 문서 버전의 별표·첨부 '+item.attachments.length+'개'));for(const a of item.attachments){const line=node('p',a.title+' · 추출: '+(a.extraction_status||'미확인')+' ');if(a.local_path)link(line,'보관 PDF',a.local_path,true);else line.append(node('span','로컬 파일 미확보 또는 무결성 확인 실패 '));link(line,'공식 첨부',a.source_url);d.append(line); }parent.append(d);}
+}
+function render(){
+  const e=entries[current], x=e.example;$('example-select').value=String(current);
+  $('question').textContent=x.question;$('meta').textContent=x.example_id+' · 리비전 '+e.revision+' · DB 상태 '+e.review_status+'\n기준일 '+x.as_of_date+' · 기대 응답 '+x.expected_status;
+  $('facts').textContent=JSON.stringify(x.facts,null,2);$('answer').textContent=x.expected_answer;$('limitations').textContent=x.limitations.join('\n')||'등록된 한계 없음 — 미확보 조건은 별도로 확인하세요.';
+  $('sources').replaceChildren();if(!e.evidence.length)$('sources').append(node('p','연결된 근거가 없습니다. 근거 없는 결론을 통과시키지 말고 문항 유형과 기대 행동을 확인하세요.','notice'));
+  for(const ev of e.evidence){const box=node('div',undefined,'source');box.append(node('p',ev.quote_matches?'발췌 문자열 일치 (의미·시점 검수는 별도)':'발췌 불일치 또는 근거 미확보',ev.quote_matches?'muted':'result-fail'),node('div',ev.quote,'quote'));renderSource(box,ev.source);for(const p of ev.parents){const d=node('details');d.append(node('summary','부모 조문 문맥'));renderSource(d,p);box.append(d);}$('sources').append(box);}
+  const saved=edits.get(x.example_id)||{};
+  for(const key of fields){if(key==='human_attested')$(key).checked=saved[key]===true;else $(key).value=saved[key]??(key==='reviewer_role'?'developer':key==='cross-checks'?'[]':Object.hasOwn(checks,key)?'pending':'');}
+  $('previous').disabled=current===0;$('next').disabled=current===entries.length-1;$('progress').textContent=(current+1)+' / '+entries.length+' 문항 · 작성 중 '+edits.size+'개';message('');
+}
+function navigate(index){saveCurrent();current=index;render();}
+entries.forEach((e,i)=>{const option=node('option',e.example.example_id+' · '+e.example.question);option.value=String(i);$('example-select').append(option);});
+$('example-select').addEventListener('change',e=>navigate(Number(e.target.value)));
+$('previous').onclick=()=>navigate(current-1);$('next').onclick=()=>navigate(current+1);
+$('review-form').addEventListener('submit',e=>e.preventDefault());
+$('review-form').addEventListener('input',()=>{dirty=true;formDirty=true;});
+$('now').onclick=()=>{const now=new Date();const local=new Date(now.getTime()-now.getTimezoneOffset()*60000);$('review_date').value=local.toISOString().slice(0,19);dirty=true;formDirty=true;};
+function download(name,value){const blob=new Blob([JSON.stringify(value,null,2)+'\n'],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const a=node('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+$('save-progress').onclick=()=>{saveCurrent();download('finreg-review-progress.json',{kind:'finreg-review-progress',schema_version:1,bundle_id:bundle.bundle_id,edits:Object.fromEntries(edits)});dirty=false;message('저장 대화상자 또는 다운로드 목록에서 파일이 저장되었는지 확인하세요.');};
+$('load-progress').onchange=async event=>{
+  try{const file=event.target.files[0];if(!file)return;if(file.size>5*1024*1024)throw Error('작업 파일이 너무 큽니다.');
+    const data=JSON.parse(await file.text());if(data.kind!=='finreg-review-progress'||data.schema_version!==1||data.bundle_id!==bundle.bundle_id||!data.edits||typeof data.edits!=='object'||Array.isArray(data.edits))throw Error('같은 원문·문항 버전의 작업 파일만 불러올 수 있습니다.');
+    const loaded=new Map();for(const [id,values] of Object.entries(data.edits)){if(!entries.some(e=>e.example.example_id===id)||!values||typeof values!=='object'||Array.isArray(values))throw Error('알 수 없는 문항 또는 입력 형식입니다.');
+      const clean={};for(const [key,value] of Object.entries(values)){if(!fields.includes(key)||(key==='human_attested'?typeof value!=='boolean':typeof value!=='string'))throw Error('잘못된 검수 필드입니다.');if(Object.hasOwn(checks,key)&&!Object.hasOwn(results,value))throw Error('잘못된 검수 상태입니다.');if(key==='reviewer_role'&&!['developer','external'].includes(value))throw Error('잘못된 검수 역할입니다.');clean[key]=value;}loaded.set(id,clean);}
+    saveCurrent();for(const [id,values] of loaded){if(edits.has(id)&&JSON.stringify(edits.get(id))!==JSON.stringify(values))throw Error('작성 중인 내용과 겹칩니다. 먼저 저장하고 새로 연 화면에서 불러오세요.');}
+    for(const [id,values] of loaded)edits.set(id,values);dirty=true;render();message('작업 파일을 불러왔습니다. DB 검수 상태는 바뀌지 않았습니다.');
+  }catch(error){message(error.message);}finally{event.target.value='';}
+};
+function completedReview(){
+  const e=entries[current], values=readForm(), record=structuredClone(e.template);
+  for(const key of ['reviewer','reviewer_role_detail','method','review_date','duration_seconds'])if(!values[key].trim())throw Error('검수자·역할·방법·일시·소요 시간을 모두 입력하세요.');
+  if(!values.human_attested)throw Error('실제 검수 수행 확인란을 선택해야 합니다.');
+  if(!['developer','external'].includes(values.reviewer_role))throw Error('검수 역할을 선택하세요.');
+  for(const key of Object.keys(checks)){if(!values[key+'-reason'].trim())throw Error('네 검수 항목 모두 판단 사유를 입력하세요.');record[key]={result:values[key],reason:values[key+'-reason'].trim()};}
+  if(record.existence.result==='pass'&&e.evidence.some(ev=>!ev.quote_matches))throw Error('불일치·미확보 근거가 있습니다. 존재 검수를 통과시킬 수 없습니다.');
+  const seconds=Number(values.duration_seconds);if(!Number.isInteger(seconds)||seconds<0)throw Error('소요 시간은 0 이상의 정수 초로 입력하세요.');
+  const when=new Date(values.review_date);if(!Number.isFinite(when.getTime()))throw Error('검수 일시를 확인하세요.');
+  let cross;try{cross=JSON.parse(values['cross-checks']);}catch{throw Error('공식 대조 기록은 JSON 배열로 입력하세요.');}
+  if(!Array.isArray(cross))throw Error('공식 대조 기록은 배열이어야 합니다.');
+  for(const item of cross){if(!item||Object.keys(item).sort().join(',')!=='locator,note,source_url'||[item.source_url,item.locator,item.note].some(v=>typeof v!=='string'||!v.trim()))throw Error('대조 기록에 source_url, locator, note를 작성하세요.');let url;try{url=new URL(item.source_url);}catch{throw Error('공식 대조 URL을 확인하세요.');}if(url.protocol!=='https:'||!['fsc.go.kr','www.fsc.go.kr','fss.or.kr','www.fss.or.kr'].includes(url.hostname)||url.username||url.password)throw Error('공식 금융위·금감원 HTTPS URL만 사용할 수 있습니다.');}
+  Object.assign(record,{reviewer:values.reviewer.trim(),reviewer_role:values.reviewer_role,reviewer_role_detail:values.reviewer_role_detail.trim(),method:values.method.trim(),review_date:when.toISOString(),duration_seconds:seconds,human_attested:true,official_cross_checks:cross,excluded_reason:values.excluded_reason.trim()||null});
+  return record;
+}
+$('export-review').onclick=()=>{try{const record=completedReview();saveCurrent();const id=record.example_id.replace(/[^a-zA-Z0-9_-]/g,'_');download('review-'+id+'-r'+record.revision+'.json',[record]);message('검수 JSON을 저장합니다. DB에는 별도로 등록해야 합니다.'+(record.reviewer_role==='developer'&&!record.official_cross_checks.length?' 공식 대조 기록이 없어 검수 완료로 승격되지 않습니다.':''));}catch(error){message(error.message);}};
+window.addEventListener('beforeunload',event=>{if(dirty){event.preventDefault();event.returnValue='';}});
+render();
+</script>
+</body>
+</html>
