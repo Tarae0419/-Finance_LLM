@@ -55,4 +55,8 @@ uv run --frozen pytest -q
 - [개발 스킬](SKILL.md)
 - [스프린트 계획](docs/FinReg_Sprint_Plan_v1.md)
 - [개발 결정 기록](docs/decisions.md)
+- [Sprint 1 진행 기록](docs/Sprint_1_Progress.md)
+- [원문 수집 결과](docs/corpus_status.md)
+- [데이터 모델과 수집 명령](docs/data_model.md)
+- [사람 검수 정책](docs/review_policy.md)
 - [브랜치 지침](AGENTS.md)

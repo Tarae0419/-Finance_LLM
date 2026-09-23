@@ -1,0 +1,35 @@
+[
+  {
+    "official_id": "013704",
+    "title": "금융소비자 보호에 관한 법률",
+    "document_type": "law",
+    "authority": "국가법령정보센터 / 금융위원회",
+    "official_version_id": "277247",
+    "promulgated_at": "2025-10-01",
+    "effective_from": "2026-01-02",
+    "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277247&efYd=20260102&chrClsCd=010202&ancYnChk=0",
+    "download_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=277247&efYd=20260102&chrClsCd=010202&ancYnChk=0"
+  },
+  {
+    "official_id": "014044",
+    "title": "금융소비자 보호에 관한 법률 시행령",
+    "document_type": "enforcement_decree",
+    "authority": "국가법령정보센터 / 금융위원회",
+    "official_version_id": "285715",
+    "promulgated_at": "2026-04-28",
+    "effective_from": "2026-04-28",
+    "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285715&efYd=20260428&chrClsCd=010202&ancYnChk=0",
+    "download_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=285715&efYd=20260428&chrClsCd=010202&ancYnChk=0"
+  },
+  {
+    "official_id": "77048",
+    "title": "금융소비자 보호에 관한 감독규정",
+    "document_type": "supervisory_regulation",
+    "authority": "국가법령정보센터 / 금융위원회",
+    "official_version_id": "2100000276850",
+    "promulgated_at": "2026-04-02",
+    "effective_from": "2026-04-02",
+    "source_url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000276850",
+    "download_url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000276850&joTpYn=Y&chrClsCd=010202"
+  }
+]

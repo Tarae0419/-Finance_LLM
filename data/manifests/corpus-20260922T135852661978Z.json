@@ -1,0 +1,167 @@
+{
+  "created_at": "2026-09-22T13:58:47.455973+00:00",
+  "sources": [
+    {
+      "official_id": "013704",
+      "title": "금융소비자 보호에 관한 법률",
+      "document_type": "law",
+      "authority": "국가법령정보센터 / 금융위원회",
+      "official_version_id": "277247",
+      "promulgated_at": "2025-10-01",
+      "effective_from": "2026-01-02",
+      "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277247&efYd=20260102&chrClsCd=010202&ancYnChk=0",
+      "download_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=277247&efYd=20260102&chrClsCd=010202&ancYnChk=0",
+      "collected_at": "2026-09-22T13:58:48.176027+00:00",
+      "content_hash": "112ee19bcb4e4bc8d5f87a4d4b451c5d0017a5c9cfd83eab1c5efdba8243e323",
+      "raw_path": "data/raw/112ee19bcb4e4bc8d5f87a4d4b451c5d0017a5c9cfd83eab1c5efdba8243e323.html",
+      "attachments": [],
+      "observed_header": "[시행 2026. 1. 2.] [법률 제21065호, 2025. 10. 1., 타법개정]",
+      "provision_count": 608,
+      "temporal_review_status": "unreviewed",
+      "limitations": [
+        "조문별 시행·경과조치 미검수",
+        "참조 관계 미해결",
+        "별표 표·단위·조건 추출 미검수",
+        "공식 FAQ·해석자료 미확보"
+      ]
+    },
+    {
+      "official_id": "014044",
+      "title": "금융소비자 보호에 관한 법률 시행령",
+      "document_type": "enforcement_decree",
+      "authority": "국가법령정보센터 / 금융위원회",
+      "official_version_id": "285715",
+      "promulgated_at": "2026-04-28",
+      "effective_from": "2026-04-28",
+      "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285715&efYd=20260428&chrClsCd=010202&ancYnChk=0",
+      "download_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=285715&efYd=20260428&chrClsCd=010202&ancYnChk=0",
+      "collected_at": "2026-09-22T13:58:49.589144+00:00",
+      "content_hash": "f04b41b4e82ca51e03626aab39ddb86b8324e4bae9b306ff774f2ddc4d8030e7",
+      "raw_path": "data/raw/f04b41b4e82ca51e03626aab39ddb86b8324e4bae9b306ff774f2ddc4d8030e7.html",
+      "attachments": [
+        {
+          "title": "appendix",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=163627339&bylClsCd=110201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/2593a9f87d5b68b289380b4f8ccfab47fceb91fe0bb9e9c8a2d5b97a0704ad02.pdf",
+          "content_hash": "2593a9f87d5b68b289380b4f8ccfab47fceb91fe0bb9e9c8a2d5b97a0704ad02",
+          "collection_status": "collected"
+        },
+        {
+          "title": "appendix",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=163627347&bylClsCd=110201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/e5c228e0e77c494213fe46ae8cce94a99fa963622a394e3af66d5bf300ba0ceb.pdf",
+          "content_hash": "e5c228e0e77c494213fe46ae8cce94a99fa963622a394e3af66d5bf300ba0ceb",
+          "collection_status": "collected"
+        },
+        {
+          "title": "appendix",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=163627353&bylClsCd=110201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/9e4fa10b03159189b0408cf7b84784c533d4588a221324adf8a10d636cff0bc2.pdf",
+          "content_hash": "9e4fa10b03159189b0408cf7b84784c533d4588a221324adf8a10d636cff0bc2",
+          "collection_status": "collected"
+        },
+        {
+          "title": "appendix",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?gubun=&flSeq=163627359&bylClsCd=110201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/b8009c355f30c1eb0b365e0726638a362aa6a9c8c7c7f878f06cc94481e3bb66.pdf",
+          "content_hash": "b8009c355f30c1eb0b365e0726638a362aa6a9c8c7c7f878f06cc94481e3bb66",
+          "collection_status": "collected"
+        }
+      ],
+      "observed_header": "[시행 2026. 4. 28.] [대통령령 제36287호, 2026. 4. 28., 일부개정]",
+      "provision_count": 840,
+      "temporal_review_status": "unreviewed",
+      "limitations": [
+        "조문별 시행·경과조치 미검수",
+        "참조 관계 미해결",
+        "별표 표·단위·조건 추출 미검수",
+        "공식 FAQ·해석자료 미확보"
+      ]
+    },
+    {
+      "official_id": "77048",
+      "title": "금융소비자 보호에 관한 감독규정",
+      "document_type": "supervisory_regulation",
+      "authority": "국가법령정보센터 / 금융위원회",
+      "official_version_id": "2100000276850",
+      "promulgated_at": "2026-04-02",
+      "effective_from": "2026-04-02",
+      "source_url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000276850",
+      "download_url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulSeq=2100000276850&joTpYn=Y&chrClsCd=010202",
+      "collected_at": "2026-09-22T13:58:52.660979+00:00",
+      "content_hash": "6dade8d586b008003e03bf2d14a4f3abba29bda56837834cd7a72ada6c718784",
+      "raw_path": "data/raw/6dade8d586b008003e03bf2d14a4f3abba29bda56837834cd7a72ada6c718784.html",
+      "attachments": [
+        {
+          "title": "[별표 1] 등록신청서 기재사항 및 첨부서류(제7조제1항 및 제2항 관련)",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163377549&flNm=%5B%EB%B3%84%ED%91%9C+1%5D+%EB%93%B1%EB%A1%9D%EC%8B%A0%EC%B2%AD%EC%84%9C+%EA%B8%B0%EC%9E%AC%EC%82%AC%ED%95%AD+%EB%B0%8F+%EC%B2%A8%EB%B6%80%EC%84%9C%EB%A5%98%28%EC%A0%9C7%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EB%B0%8F+%EC%A0%9C2%ED%95%AD+%EA%B4%80%EB%A0%A8%29&bylClsCd=200201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/d1a7307c8e66c66655f36d6a1733ad146cb7060bc3129714c58cca92f2ba0eb0.pdf",
+          "content_hash": "d1a7307c8e66c66655f36d6a1733ad146cb7060bc3129714c58cca92f2ba0eb0",
+          "collection_status": "collected"
+        },
+        {
+          "title": "[별표 2] 내부통제기준에 포함되어야 하는 사항(제9조제2항 관련)",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163377559&flNm=%5B%EB%B3%84%ED%91%9C+2%5D+%EB%82%B4%EB%B6%80%ED%86%B5%EC%A0%9C%EA%B8%B0%EC%A4%80%EC%97%90+%ED%8F%AC%ED%95%A8%EB%90%98%EC%96%B4%EC%95%BC+%ED%95%98%EB%8A%94+%EC%82%AC%ED%95%AD%28%EC%A0%9C9%EC%A1%B0%EC%A0%9C2%ED%95%AD+%EA%B4%80%EB%A0%A8%29&bylClsCd=200201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/a9000da3129e53207193f3d71d9ac8debfebca374ad2cf44ee45957c6f9a3940.pdf",
+          "content_hash": "a9000da3129e53207193f3d71d9ac8debfebca374ad2cf44ee45957c6f9a3940",
+          "collection_status": "collected"
+        },
+        {
+          "title": "[별표 3] 설명 사항(제12조제1항 및 제4항 관련)",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163377567&flNm=%5B%EB%B3%84%ED%91%9C+3%5D+%EC%84%A4%EB%AA%85+%EC%82%AC%ED%95%AD%28%EC%A0%9C12%EC%A1%B0%EC%A0%9C1%ED%95%AD+%EB%B0%8F+%EC%A0%9C4%ED%95%AD+%EA%B4%80%EB%A0%A8%29&bylClsCd=200201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/0d99cad92fdf82ac81aafa1bc20a803d1ff7e712fc0a7fbc5de4a1c03531f1fd.pdf",
+          "content_hash": "0d99cad92fdf82ac81aafa1bc20a803d1ff7e712fc0a7fbc5de4a1c03531f1fd",
+          "collection_status": "collected"
+        },
+        {
+          "title": "[별표 4] 보장성 상품 설명서에 포함되어야 하는 사항(제13조제1항제6호 관련)",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163377573&flNm=%5B%EB%B3%84%ED%91%9C+4%5D+%EB%B3%B4%EC%9E%A5%EC%84%B1+%EC%83%81%ED%92%88+%EC%84%A4%EB%AA%85%EC%84%9C%EC%97%90+%ED%8F%AC%ED%95%A8%EB%90%98%EC%96%B4%EC%95%BC+%ED%95%98%EB%8A%94+%EC%82%AC%ED%95%AD%28%EC%A0%9C13%EC%A1%B0%EC%A0%9C1%ED%95%AD%EC%A0%9C6%ED%98%B8+%EA%B4%80%EB%A0%A8%29&bylClsCd=200201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/8a831209aaa0cb225b5ac259ebbb050e6d5135458330d15df7efc396ea642ba0.pdf",
+          "content_hash": "8a831209aaa0cb225b5ac259ebbb050e6d5135458330d15df7efc396ea642ba0",
+          "collection_status": "collected"
+        },
+        {
+          "title": "[별표 5] 광고에 포함해야 하는 사항(제17조제2항 관련)",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163377581&flNm=%5B%EB%B3%84%ED%91%9C+5%5D+%EA%B4%91%EA%B3%A0%EC%97%90+%ED%8F%AC%ED%95%A8%ED%95%B4%EC%95%BC+%ED%95%98%EB%8A%94+%EC%82%AC%ED%95%AD%28%EC%A0%9C17%EC%A1%B0%EC%A0%9C2%ED%95%AD+%EA%B4%80%EB%A0%A8%29&bylClsCd=200201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/a0f593090991d5a7d873056b9a85c678f34f5a314b5df14ec4891428b98e6e36.pdf",
+          "content_hash": "a0f593090991d5a7d873056b9a85c678f34f5a314b5df14ec4891428b98e6e36",
+          "collection_status": "collected"
+        },
+        {
+          "title": "[별표 6] 투자성 상품 관련 (부)적정성 판단 보고서(시행령 제12조제4항제1호 서류)",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163377587&flNm=%5B%EB%B3%84%ED%91%9C+6%5D+%ED%88%AC%EC%9E%90%EC%84%B1+%EC%83%81%ED%92%88+%EA%B4%80%EB%A0%A8+%28%EB%B6%80%29%EC%A0%81%EC%A0%95%EC%84%B1+%ED%8C%90%EB%8B%A8+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%ED%96%89%EB%A0%B9+%EC%A0%9C12%EC%A1%B0%EC%A0%9C4%ED%95%AD%EC%A0%9C1%ED%98%B8+%EC%84%9C%EB%A5%98%29&bylClsCd=200201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/f8189b8a4000dc5b13631535bae63b2896de2912d1e2cb15b341d6464aa98436.pdf",
+          "content_hash": "f8189b8a4000dc5b13631535bae63b2896de2912d1e2cb15b341d6464aa98436",
+          "collection_status": "collected"
+        },
+        {
+          "title": "[별표 7] 과징금의 부과기준(제34조의2 관련)",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163377607&flNm=%5B%EB%B3%84%ED%91%9C+7%5D+%EA%B3%BC%EC%A7%95%EA%B8%88%EC%9D%98+%EB%B6%80%EA%B3%BC%EA%B8%B0%EC%A4%80%28%EC%A0%9C34%EC%A1%B0%EC%9D%982+%EA%B4%80%EB%A0%A8%29&bylClsCd=200201",
+          "extraction_status": "pending",
+          "raw_path": "data/raw/cebaecb74ad62d72c8165c36ce1f8462c2dc22c68b07bd7633dfd6eb018e7ed1.pdf",
+          "content_hash": "cebaecb74ad62d72c8165c36ce1f8462c2dc22c68b07bd7633dfd6eb018e7ed1",
+          "collection_status": "collected"
+        }
+      ],
+      "observed_header": "[시행 2026. 4. 2.] [금융위원회고시 제2026-11호, 2026. 4. 2., 일부개정]",
+      "provision_count": 587,
+      "temporal_review_status": "unreviewed",
+      "limitations": [
+        "조문별 시행·경과조치 미검수",
+        "참조 관계 미해결",
+        "별표 표·단위·조건 추출 미검수",
+        "공식 FAQ·해석자료 미확보"
+      ]
+    }
+  ]
+}
