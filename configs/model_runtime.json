@@ -1,0 +1,21 @@
+{
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "tokenizer_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "license": "Apache-2.0",
+  "local_directory": "models/qwen3-4b-instruct-2507",
+  "quantization": "nf4",
+  "double_quantization": true,
+  "compute_dtype": "bfloat16",
+  "attention": "sdpa",
+  "seed": 42,
+  "input_lengths": [256, 1024],
+  "output_tokens": 64,
+  "repetitions": 3,
+  "training_sequence_length": 256,
+  "training_steps": 3,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "learning_rate": 0.0001,
+  "scope": "local resource probe only; not a legal model release"
+}

@@ -1,6 +1,6 @@
 # FinReg
 
-은행 대출상품 설명에 필요한 금융 법규를 근거·기준일과 함께 확인하는 자체 운영 LLM 프로젝트다. 현재 Sprint 1에서 API·DB 기반, 공식 원문 수집, 초기 문항과 검수 이력을 구현했다. 법규 답변·모델 추론 기능은 아직 제공하지 않는다.
+은행 대출상품 설명에 필요한 금융 법규를 근거·기준일과 함께 확인하는 자체 운영 LLM 프로젝트다. 현재 Sprint 1에서 API·DB 기반, 공식 원문 수집, 초기 문항과 검수 이력, 로컬 모델 자원 측정 도구를 구현했다. 사용자용 법규 답변 API는 아직 제공하지 않는다.
 
 ## 개발 환경
 
@@ -61,4 +61,5 @@ uv run --frozen pytest -q
 - [사람 검수 정책](docs/review_policy.md)
 - [초기 20문항 검수 목록](data/review/initial-20/README.md)
 - [검수 파일 작성·등록 방법](docs/dataset_review.md)
+- [로컬 모델 실행·자원 측정](docs/model_runtime.md)
 - [브랜치 지침](AGENTS.md)
